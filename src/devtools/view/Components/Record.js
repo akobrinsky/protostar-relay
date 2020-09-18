@@ -13,7 +13,7 @@ function Record(props) {
     ) : (
         <div className="objectProperty" key={key}>
           <span className="key">{key}: </span>
-          <span className="value">{JSON.stringify(props[key])}</span>
+          <span >{JSON.stringify(props[key])}</span>
         </div>
       );
   })
